@@ -938,16 +938,18 @@ ul a:active {
 /* panel 2 */
 
 .panel2 {
-    height: 13px;
+    height: 30px;
     padding: 20px;
     background-color: rgb(0, 33, 82);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 .panel2 p {
     color: #FFFFFF;
     font-size: 0.85rem;
+    text-align: center;
 }
 .panel2 a {
     text-decoration: none;
